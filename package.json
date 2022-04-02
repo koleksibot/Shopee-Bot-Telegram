@@ -1,0 +1,35 @@
+{
+  "name": "shopee-telegram",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=1024 --stack-trace-limit=0 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edosulai/Shopee-Bot-Telegram.git"
+  },
+  "keywords": [
+    "shop",
+    "bot"
+  ],
+  "author": "sulai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edosulai/Shopee-Bot-Telegram/issues"
+  },
+  "homepage": "https://github.com/edosulai/Shopee-Bot-Telegram#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cookie": "^0.4.1",
+    "dotenv": "^8.2.0",
+    "form-data": "^2.3.3",
+    "mongoose": "^5.13.5",
+    "mongoose-findorcreate": "^3.0.0",
+    "node-libcurl": "^2.3.3",
+    "psl": "^1.8.0",
+    "telegraf": "^4.3.0"
+  },
+  "devDependencies": {}
+}
